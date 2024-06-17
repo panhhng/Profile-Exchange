@@ -6,12 +6,14 @@ import GoogleSignIn
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
+    // set up Firebase when app launches
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         return true
     }
-
+    
+    // handle URL that app receives after Google Sign-in
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         return GIDSignIn.sharedInstance.handle(url)
     }
@@ -21,7 +23,7 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Set the configuration
+        // Set up Google Sign-In by config with Firebase app's client ID
         let clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientID!)
         
@@ -31,6 +33,7 @@ class SignInViewController: UIViewController {
         view.addSubview(signInButton)
     }
     
+    // Handle Google Sign-In Process and use result to authenticate with Firebase
     @IBAction func signInWithGoogle(_ sender: Any) {
         GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
             if let error = error {
