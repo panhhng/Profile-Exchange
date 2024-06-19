@@ -11,7 +11,6 @@
 		19EB40952C1B58F40045A703 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB40942C1B58F40045A703 /* ContentView.swift */; };
 		19EB40972C1B58F60045A703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EB40962C1B58F60045A703 /* Assets.xcassets */; };
 		19EB409A2C1B58F60045A703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19EB40992C1B58F60045A703 /* Preview Assets.xcassets */; };
-		19EB409C2C1B58F60045A703 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB409B2C1B58F60045A703 /* Persistence.swift */; };
 		19EB409F2C1B58F60045A703 /* profile_exchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19EB409D2C1B58F60045A703 /* profile_exchange.xcdatamodeld */; };
 		19EB40AA2C1B58F60045A703 /* profile_exchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB40A92C1B58F60045A703 /* profile_exchangeTests.swift */; };
 		19EB40B42C1B58F60045A703 /* profile_exchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB40B32C1B58F60045A703 /* profile_exchangeUITests.swift */; };
@@ -43,7 +42,20 @@
 		19EB415B2C1C03B90045A703 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 19EB415A2C1C03B90045A703 /* FirebaseRemoteConfigSwift */; };
 		19EB415D2C1C03B90045A703 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 19EB415C2C1C03B90045A703 /* FirebaseStorage */; };
 		19EB415F2C1C03B90045A703 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 19EB415E2C1C03B90045A703 /* FirebaseStorageCombine-Community */; };
-		2B9DEB092C209DC200A36031 /* NFCExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB082C209DC200A36031 /* NFCExchangeViewController.swift */; };
+		2B9DEB112C215D5600A36031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB102C215D5600A36031 /* SceneDelegate.swift */; };
+		2B9DEB142C215DDC00A36031 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB132C215DDC00A36031 /* User.swift */; };
+		2B9DEB162C215DEB00A36031 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB152C215DEB00A36031 /* Contact.swift */; };
+		2B9DEB192C215E1400A36031 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB182C215E1400A36031 /* UserViewModel.swift */; };
+		2B9DEB1B2C215E2900A36031 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB1A2C215E2900A36031 /* ContactViewModel.swift */; };
+		2B9DEB252C215EBA00A36031 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB242C215EBA00A36031 /* LoginView.swift */; };
+		2B9DEB272C215F7300A36031 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB262C215F7300A36031 /* ProfileView.swift */; };
+		2B9DEB2B2C2175C600A36031 /* NFCSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB2A2C2175C600A36031 /* NFCSharingView.swift */; };
+		2B9DEB2D2C2175D500A36031 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB2C2C2175D500A36031 /* EditProfileView.swift */; };
+		2B9DEB2F2C2175E300A36031 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB2E2C2175E300A36031 /* ContactListView.swift */; };
+		2B9DEB372C22EA3B00A36031 /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB362C22EA3B00A36031 /* NFCManager.swift */; };
+		2B9DEB392C22EB1C00A36031 /* GoogleSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB382C22EB1C00A36031 /* GoogleSignInService.swift */; };
+		2B9DEB3C2C22EB6100A36031 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB3B2C22EB6100A36031 /* Constants.swift */; };
+		2B9DEB402C22F06500A36031 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DEB3F2C22F06500A36031 /* PersistenceService.swift */; };
 		FA1B69362C1DEDE9006FBE8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA1B69352C1DEDE9006FBE8A /* GoogleService-Info.plist */; };
 		FA1B69392C1DEEAC006FBE8A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = FA1B69382C1DEEAC006FBE8A /* GoogleSignIn */; };
 		FA1B693B2C1DEEAC006FBE8A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA1B693A2C1DEEAC006FBE8A /* GoogleSignInSwift */; };
@@ -72,7 +84,6 @@
 		19EB40942C1B58F40045A703 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19EB40962C1B58F60045A703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19EB40992C1B58F60045A703 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		19EB409B2C1B58F60045A703 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		19EB409E2C1B58F60045A703 /* profile_exchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = profile_exchange.xcdatamodel; sourceTree = "<group>"; };
 		19EB40A02C1B58F60045A703 /* profile_exchange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = profile_exchange.entitlements; sourceTree = "<group>"; };
 		19EB40A52C1B58F60045A703 /* profile_exchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = profile_exchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +91,20 @@
 		19EB40AF2C1B58F60045A703 /* profile_exchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = profile_exchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19EB40B32C1B58F60045A703 /* profile_exchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile_exchangeUITests.swift; sourceTree = "<group>"; };
 		19EB40B52C1B58F60045A703 /* profile_exchangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile_exchangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2B9DEB082C209DC200A36031 /* NFCExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCExchangeViewController.swift; sourceTree = "<group>"; };
+		2B9DEB102C215D5600A36031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B9DEB132C215DDC00A36031 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2B9DEB152C215DEB00A36031 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		2B9DEB182C215E1400A36031 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		2B9DEB1A2C215E2900A36031 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		2B9DEB242C215EBA00A36031 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2B9DEB262C215F7300A36031 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2B9DEB2A2C2175C600A36031 /* NFCSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCSharingView.swift; sourceTree = "<group>"; };
+		2B9DEB2C2C2175D500A36031 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		2B9DEB2E2C2175E300A36031 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		2B9DEB362C22EA3B00A36031 /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+		2B9DEB382C22EB1C00A36031 /* GoogleSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInService.swift; sourceTree = "<group>"; };
+		2B9DEB3B2C22EB6100A36031 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B9DEB3F2C22F06500A36031 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		FA1B69352C1DEDE9006FBE8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,15 +185,19 @@
 		19EB40912C1B58F40045A703 /* profile_exchange */ = {
 			isa = PBXGroup;
 			children = (
+				2B9DEB1D2C215E5100A36031 /* Services */,
+				2B9DEB1C2C215E4700A36031 /* Views */,
+				2B9DEB172C215DFF00A36031 /* ViewModels */,
+				2B9DEB122C215DCB00A36031 /* Models */,
 				19EB40922C1B58F40045A703 /* AppDelegate.swift */,
-				2B9DEB082C209DC200A36031 /* NFCExchangeViewController.swift */,
-				FA1B69352C1DEDE9006FBE8A /* GoogleService-Info.plist */,
 				19EB40942C1B58F40045A703 /* ContentView.swift */,
+				2B9DEB102C215D5600A36031 /* SceneDelegate.swift */,
 				19EB40962C1B58F60045A703 /* Assets.xcassets */,
-				19EB409B2C1B58F60045A703 /* Persistence.swift */,
 				19EB40A02C1B58F60045A703 /* profile_exchange.entitlements */,
 				19EB409D2C1B58F60045A703 /* profile_exchange.xcdatamodeld */,
+				FA1B69352C1DEDE9006FBE8A /* GoogleService-Info.plist */,
 				19EB40982C1B58F60045A703 /* Preview Content */,
+				2B9DEB3B2C22EB6100A36031 /* Constants.swift */,
 			);
 			path = profile_exchange;
 			sourceTree = "<group>";
@@ -197,6 +225,46 @@
 				19EB40B52C1B58F60045A703 /* profile_exchangeUITestsLaunchTests.swift */,
 			);
 			path = profile_exchangeUITests;
+			sourceTree = "<group>";
+		};
+		2B9DEB122C215DCB00A36031 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B9DEB132C215DDC00A36031 /* User.swift */,
+				2B9DEB152C215DEB00A36031 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B9DEB172C215DFF00A36031 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B9DEB182C215E1400A36031 /* UserViewModel.swift */,
+				2B9DEB1A2C215E2900A36031 /* ContactViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B9DEB1C2C215E4700A36031 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B9DEB242C215EBA00A36031 /* LoginView.swift */,
+				2B9DEB262C215F7300A36031 /* ProfileView.swift */,
+				2B9DEB2A2C2175C600A36031 /* NFCSharingView.swift */,
+				2B9DEB2C2C2175D500A36031 /* EditProfileView.swift */,
+				2B9DEB2E2C2175E300A36031 /* ContactListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B9DEB1D2C215E5100A36031 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B9DEB362C22EA3B00A36031 /* NFCManager.swift */,
+				2B9DEB382C22EB1C00A36031 /* GoogleSignInService.swift */,
+				2B9DEB3F2C22F06500A36031 /* PersistenceService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,11 +433,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9DEB112C215D5600A36031 /* SceneDelegate.swift in Sources */,
+				2B9DEB402C22F06500A36031 /* PersistenceService.swift in Sources */,
+				2B9DEB192C215E1400A36031 /* UserViewModel.swift in Sources */,
+				2B9DEB372C22EA3B00A36031 /* NFCManager.swift in Sources */,
+				2B9DEB2D2C2175D500A36031 /* EditProfileView.swift in Sources */,
 				19EB409F2C1B58F60045A703 /* profile_exchange.xcdatamodeld in Sources */,
-				2B9DEB092C209DC200A36031 /* NFCExchangeViewController.swift in Sources */,
-				19EB409C2C1B58F60045A703 /* Persistence.swift in Sources */,
+				2B9DEB3C2C22EB6100A36031 /* Constants.swift in Sources */,
+				2B9DEB142C215DDC00A36031 /* User.swift in Sources */,
+				2B9DEB2F2C2175E300A36031 /* ContactListView.swift in Sources */,
 				19EB40952C1B58F40045A703 /* ContentView.swift in Sources */,
 				19EB40932C1B58F40045A703 /* AppDelegate.swift in Sources */,
+				2B9DEB1B2C215E2900A36031 /* ContactViewModel.swift in Sources */,
+				2B9DEB392C22EB1C00A36031 /* GoogleSignInService.swift in Sources */,
+				2B9DEB252C215EBA00A36031 /* LoginView.swift in Sources */,
+				2B9DEB162C215DEB00A36031 /* Contact.swift in Sources */,
+				2B9DEB2B2C2175C600A36031 /* NFCSharingView.swift in Sources */,
+				2B9DEB272C215F7300A36031 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +615,7 @@
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$Users/PhAnh/Desktop/profile_exchange/frameworks\"";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -562,6 +643,7 @@
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$Users/PhAnh/Desktop/profile_exchange/frameworks\"";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

@@ -1,0 +1,6 @@
+framework module Pods_profile_exchange_profile_exchangeUITests {
+  umbrella header "Pods-profile_exchange-profile_exchangeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
