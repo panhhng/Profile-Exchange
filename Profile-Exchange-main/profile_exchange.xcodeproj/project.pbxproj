@@ -190,6 +190,7 @@
 				2B9DEB172C215DFF00A36031 /* ViewModels */,
 				2B9DEB122C215DCB00A36031 /* Models */,
 				19EB40922C1B58F40045A703 /* AppDelegate.swift */,
+				2B9DEB3B2C22EB6100A36031 /* Constants.swift */,
 				19EB40942C1B58F40045A703 /* ContentView.swift */,
 				2B9DEB102C215D5600A36031 /* SceneDelegate.swift */,
 				19EB40962C1B58F60045A703 /* Assets.xcassets */,
@@ -197,7 +198,6 @@
 				19EB409D2C1B58F60045A703 /* profile_exchange.xcdatamodeld */,
 				FA1B69352C1DEDE9006FBE8A /* GoogleService-Info.plist */,
 				19EB40982C1B58F60045A703 /* Preview Content */,
-				2B9DEB3B2C22EB6100A36031 /* Constants.swift */,
 			);
 			path = profile_exchange;
 			sourceTree = "<group>";
