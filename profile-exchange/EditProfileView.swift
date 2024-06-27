@@ -43,6 +43,7 @@ struct EditProfileView: View {
                     TextField("Gmail", text: $profile.gmail)
                 }
             }
+            
             .navigationBarTitle("Edit Profile", displayMode: .inline)
             .navigationBarItems(trailing: Button("Done") {
                 showUpdateMessage = true

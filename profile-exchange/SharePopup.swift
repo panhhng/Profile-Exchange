@@ -18,7 +18,7 @@ struct SharePopup: View {
             Text("Share info to phone ABC?")
                 .font(.headline)
                 .padding()
-
+                .foregroundColor(.white)
             HStack {
                 Button(action: {
                     let defaultInfo = """
@@ -33,6 +33,7 @@ struct SharePopup: View {
                     Text("Share default info")
                 }
                 .padding()
+                .foregroundColor(.white)
 
                 Button(action: {
                     showCustomInfoPopup = true
@@ -48,10 +49,11 @@ struct SharePopup: View {
                     Text("Cancel")
                 }
                 .padding()
+                .foregroundColor(.red)
             }
         }
         .padding()
-        .background(Color.white)
+        .background(Color.black)
         .cornerRadius(10)
         .shadow(radius: 10)
     }
